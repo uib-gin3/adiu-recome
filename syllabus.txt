@@ -1,0 +1,256 @@
+ 21724 - Aplicaciones Distribuidas en Internet e Interfaces de Usuario
+
+Información de la Guía Docente
+Titulación:
+620 - GIN3 - Grado en Ingeniería Informática (Plan 2021)
+665 - GMI2 - Doble titulación: grado de Matemáticas y grado de Ingeniería Informática
+Código:
+21724
+Tipo:
+Obligatoria
+Créditos:
+6.0
+Ámbito:
+Ingeniería informática y de sistemas
+Curso:
+665 - GMI2: 5
+634 - GMIN: 5
+620 - GIN3: 4
+242 - GIN2: 4
+Semestre:
+Primer semestre
+Profesorado:
+Joan Josep Ordóñez Bonet, Ines Ayed
+1. Profesor/es responsable/s
+
+Dra. Ines Ayed
+
+    971 172058 (2058)  
+    Despacho 185, Anselm Turmeda
+    ines.ayed (at) uib.es
+
+2. Lengua de impartición
+
+La lengua de impartición consta en la página web de la asignatura del estudio correspondiente y se puede consultar según el grupo de matrícula.
+
+2.1. Lenguas de apoyo
+
+    Castellano
+
+3. Contextualización
+
+La asignatura de Aplicaciones Distribuidas en Internet e Interfaces de Usuario es una asignatura obligatoria de 6 ECTS que integra el módulo de asignaturas comunes a la rama de informática, y situada en el primer semestre del cuarto curso del grado de Informática.
+
+ 
+
+La asignatura pretende proporcionar a los estudiantes los conocimientos de diseño de sistemas interactivos usables y accesibles y los conceptos básicos de las aplicaciones distribuidas web necesarios para su actividad profesional.
+
+ 
+
+4. Requisitos
+
+Está asignatura es autocontenida y no tiene requisitos previos.
+
+5. Recomendaciones
+
+Es recomendable haber adquirido los conocimientos de la materia de Programación II.
+
+6. Resultados de aprendizaje/Competencias
+
+Específicas de la materia
+
+    VPC1: Capacidad para comprender los principios básicos de las principales tecnologías de visión por computador y procesamiento de imágenes existentes hoy en día.
+    VPC2: Capacidad para determinar si, en una aplicación concreta, adquirir un cierto grado de automatización (por medio de visión por computador y procesamiento de imágenes) supone un beneficio.
+    VPC3: Capacidad para identificar las tecnologías de visión por computador y procesamiento de imágenes más adecuadas para una cierta aplicación.
+    VPC4: Capacidad para integrar las tecnologías de visión por computador y procesamiento de imágenes más adecuadas para una cierta aplicación.
+
+Específicas del título
+
+    CE1 Capacidad para analizar las necesidades de información que se plantean en un entorno en el contexto de los sistemas inteligentes
+    CE2 Capacidad para llevar a cabo el proceso de diseño de un sistema automático de adquisición de información en el ámbito de los sistemas inteligentes
+    CE3 Capacidad de modelización, simulación e interpretación de resultados en el ámbito de los sistemas inteligentes
+    CE4 Capacidad para aplicar métodos matemáticos y estadísticos para diseñar y desarrollar aplicaciones y servicios en el ámbito de los sistemas inteligentes
+    CE6 Capacidad de leer y comprender publicaciones en el ámbito tecnológico, así como de catalogarlas y de estimar su valor científico
+
+Genéricas
+
+    CG3 Comprensión amplia de las técnicas y métodos aplicables en una especialización concreta, así como de sus límites
+    CG4 Habilidad para trabajar en un contexto internacional
+    CG5 Comprender el procedimiento, valor y límites del método científico, siendo capaz de diseñar y guiar investigaciones analíticas, de modelado y experimentales
+
+Básicas
+
+    CB6 Poseer y comprender conocimientos que aporten una base u oportunidad de ser originales en desarrollo y/o aplicación de ideas, a menudo en un contexto de investigación
+    CB7 Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio
+    CB8 Que los estudiantes sean capaces de integrar conocimientos y entrenarse a la complejidad de formular juicios a partir de una información que, siendo incompleta o limitada, incluya reflexiones sobre las responsabilidades sociales y éticas vinculadas a la aplicación de sus conocimientos y juicios
+    CB10 Que los estudiantes posean las habilidades de aprendizaje que les permiten continuar estudiando
+    Se puede consultar las competencias básicas que el estudiante tiene que haber adquirido al finalizar el máster en la siguiente dirección: http://estudis.uib.cat/es/master/comp_basiques/
+
+7. Contenidos
+
+    Tema 1. Aplicaciones web (30 horas presenciales, 45 horas no presenciales)
+        El paradigma de diseño y desarrollo: modelo de datos, presentación y control
+        Servidores de aplicaciones: definición, evolución, tipos y herramientas
+        Patrones de diseño y paradigmas de diseño y desarrollo
+        Planteamiento, esquema y exposición de las principales soluciones existentes
+        Entornos propietarios y entornos libres: ventajas e inconvenientes
+    Tema 2. Introducción a la disciplina Interacción Persona-Ordenador (15 horas presenciales, 22,5 horas no presenciales)
+        Disciplina Interacción Persona-Ordenado
+        El factor humano
+        Diseño centrado en el usuario (DCU)
+    Tema 3. Diseño universal y accesibilidad (15 horas presenciales, 22,5 horas no presenciales)
+        Diseño universal. Principios del diseño universal
+        Tipos de necesidades especiales
+        Productos de apoyo y herramientas
+        Introducción a la accesibilidad web
+        Estándares WCAG 2.1 
+        Proceso y Herramientas de evaluación Accesibilidad
+        Casos reales con profesionales del sector
+
+ 
+
+8. Metodología docente
+
+ 
+
+Activitats Presencials
+
+Nom Activitat
+	
+
+Descripció
+	
+
+Competències
+	
+
+Agrupació
+	
+
+Avaluable?
+	
+
+Hores
+
+Clases magistrales
+	
+
+Conceptos teóricos del análisis, diseño y desarrollo de un sistema de colaboración persona-ordenador y aplicaciones web
+	
+
+CCM11, CCM13, CCM17, CTR02, CTR07 
+	
+
+Grupo grande
+	
+
+No
+	
+
+45
+
+Clases prácticas
+	
+
+Clases prácticas con el soporte del profesorado, donde el alumno podrá poner en práctica y profundizar sobre el uso de los conceptos teóricos adquiridos
+	
+
+CCM11, CCM13, CCM17, CTR01, CTR02, CTR03, CTR04 
+	
+
+Grupo mediano
+	
+
+No
+	
+
+15
+
+Total
+	
+
+60
+
+ 
+
+ 
+
+Activitats No Presencials
+
+Nom Activitat
+	
+
+Descripció
+	
+
+Competències
+	
+
+Agrupació
+	
+
+Avaluable?
+	
+
+Hores
+
+Estudio y trabajo autónomo individual
+	
+
+Estudio individual
+	
+
+CCM11, CCM13, CCM17, CTR02, CTR07 
+	
+
+Individual
+	
+
+Sí
+	
+
+45
+
+Estudio y trabajo autónomo individual o en grupo
+	
+
+Estudio invidual o en grupo
+	
+
+CCM11, CCM13, CCM17, CTR01, CTR02, CTR03, CTR04 
+	
+
+Individual/en grupo
+	
+
+Sí
+	
+
+45
+
+Total
+	
+
+90
+
+ 
+
+Hores totales aproximadas dedicadas a este tipo de actividad
+
+Agrupació Indica el tipo de agrupamiento en el que se desarrolla la actividad. Por ejemplo, en las actividades presenciales (Grupo grande/Grupo mediano 1/Grupo mediano 2) y en las no presenciales (individuales/en grupo)
+
+ 
+
+El profesorado expondrá los conceptos teóricos mediante clases magistrales del análisis, diseño y desarrollo de un sistema de colaboración persona-ordenador. Por otra parte, el alumno realizará clases prácticas con el soporte del profesorado, en donde el alumno podrá poner en práctica y profundizar sobre el uso de los conceptos teóricos adquiridos.
+
+ 
+
+A principios del semestre habrá a disposición de los estudiantes el cronograma de la asignatura a través de la plataforma UIBdigital. Este cronograma incluirá al menos las fechas en las que se realizarán las pruebas de evaluación continua y las fechas de entrega de los trabajos. Además, el profesor o la profesora informará a los estudiantes si el plan de trabajo de la asignatura se llevará a cabo a través del cronograma o por otra vía, incluida la plataforma Aula digital.
+
+ 
+
+Riesgos específicos y medidas de protección
+
+Las actividades de aprendizaje de esta asignatura no conllevan riesgos específicos para la seguridad y salud de los alumnos y, por tanto, no es necesario adoptar medidas de protección especiales.
+
+ 
