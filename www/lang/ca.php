@@ -21,6 +21,7 @@ return [
     'nav.dashboard' => 'Tauler',
     'lang.label' => 'Idioma de la interfície',
     'footer.line' => 'Recome, pràctica 1 de 21724 ADIU, Universitat de les Illes Balears',
+    'footer.source' => 'Codi font sota llicència GNU AGPLv3',
 
     'common.name' => 'Nom',
     'common.family' => 'Família',

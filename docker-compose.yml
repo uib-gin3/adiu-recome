@@ -21,7 +21,9 @@ services:
   web:
     build: .
     ports:
-      - "8080:80"
+      - "${RECOME_PORT:-8080}:80"
+    environment:
+      RECOME_SOURCE_URL: https://github.com/uib-gin3/adiu-recome
     volumes:
       - ./www:/var/www/html
     depends_on:

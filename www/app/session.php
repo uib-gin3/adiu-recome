@@ -59,3 +59,14 @@ function languageUrl($lang)
     $params['lang'] = $lang;
     return basename($_SERVER['SCRIPT_NAME']) . '?' . http_build_query($params);
 }
+
+// Where the source code of the running application lives
+function sourceUrl()
+{
+    static $url = null;
+    if ($url === null) {
+        $config = require __DIR__ . '/config.php';
+        $url = isset($config['source']) ? $config['source'] : '';
+    }
+    return $url;
+}

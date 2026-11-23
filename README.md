@@ -69,6 +69,26 @@ The three links CA, ES and EN in the header change the interface language. The c
 - Charts use the Highcharts accessibility module with descriptions
 - The pages that need JavaScript announce it politely with `noscript`
 
+## Deploy to your own server
+
+The stack is ready for a server that already has a reverse proxy doing TLS, for example Caddy for `recome.rtom.eu`.
+
+1. Point the DNS record of `recome.rtom.eu` to the server.
+2. Clone the repository on the server and run `docker compose up -d --build`.
+3. Teach Caddy to forward the requests to the published port:
+
+```
+recome.rtom.eu {
+    reverse_proxy localhost:8080
+}
+```
+
+If the port 8080 is taken on the server, create a `.env` file next to `docker-compose.yml` with `RECOME_PORT=9090` or any other port and aim Caddy at that one. The web container also receives `RECOME_SOURCE_URL`, the address of this repository shown in the footer.
+
+## License
+
+Recome is free software under the GNU Affero General Public License v3. The full text is in the `LICENSE` file of the repository, and the footer of every page links back to the source code, as that license requires when the application is offered over a network. The address of the repository is `https://github.com/uib-gin3/adiu-recome` and can be overridden with the `RECOME_SOURCE_URL` environment variable.
+
 ## How the data travels
 
 The pages that render forms talk to the models directly through PHP and show the result after a redirect, with a short message stored in the session. The menu grid and the dashboard do the round trip of the practice: JavaScript asks `api/menu.php` or `api/dashboard.php` with the Fetch API, PHP queries MySQL with PDO prepared statements and answers with `json_encode`, and the browser draws the grid or the Highcharts visualizations. The family filter of the dashboard starts the round trip again with the chosen value.

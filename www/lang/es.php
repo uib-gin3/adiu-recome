@@ -21,6 +21,7 @@ return [
     'nav.dashboard' => 'Panel',
     'lang.label' => 'Idioma de la interfaz',
     'footer.line' => 'Recome, práctica 1 de 21724 ADIU, Universidad de las Illes Balears',
+    'footer.source' => 'Código fuente bajo licencia GNU AGPLv3',
 
     'common.name' => 'Nombre',
     'common.family' => 'Familia',

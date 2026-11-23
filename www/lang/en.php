@@ -21,6 +21,7 @@ return [
     'nav.dashboard' => 'Dashboard',
     'lang.label' => 'Interface language',
     'footer.line' => 'Recome, practice 1 of 21724 ADIU, University of the Balearic Islands',
+    'footer.source' => 'Source code under the GNU AGPLv3 license',
 
     'common.name' => 'Name',
     'common.family' => 'Family',
