@@ -55,7 +55,7 @@ class Dashboard
         $statement = $pdo->prepare($sql);
         $statement->execute($params);
 
-        // One meal counts once per family even if two ingredients share it
+        // One meal count once per family even if two ingredients share it
         $seen = [];
         $meals = [];
         foreach ($statement->fetchAll() as $row) {

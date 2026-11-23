@@ -3,7 +3,7 @@
 require __DIR__ . '/../app/Menu.php';
 require __DIR__ . '/common.php';
 
-// Seven days and five meal slots per day
+// Seven days and five meal slot per day
 function slotFromRequest()
 {
     $data = readBody();

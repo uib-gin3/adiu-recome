@@ -28,7 +28,7 @@ function chartBase() {
   };
 }
 
-// Meals of the week per family with the balanced criteria line
+// Meals of the week per family with the balanced critera line
 function drawWeekChart(data) {
   const categories = filterSelect.value ? [filterSelect.value] : data.families;
   const meals = categories.map(family => Number(data.week[family] || 0));

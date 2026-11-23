@@ -40,7 +40,7 @@ p {
   max-width: 70ch;
 }
 
-/* The skip link appears only when it receives the keyboard focus */
+/* The skip link apear only when it receives the keyboard focus */
 .skip-link {
   position: absolute;
   left: -9999px;

@@ -52,7 +52,7 @@ function takeFlash()
     return '';
 }
 
-// The current address with the language changed, so edits and filters survive
+// The current address with the language changed, so edits and filters surive
 function languageUrl($lang)
 {
     $params = $_GET;

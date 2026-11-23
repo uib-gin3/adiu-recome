@@ -24,7 +24,7 @@ async function apiSend(url, method, body) {
   return data;
 }
 
-// Show quantities without trailing zeros
+// Show quantities without trailng zeros
 function formatQuantity(value) {
   return String(Math.round(Number(value) * 100) / 100);
 }

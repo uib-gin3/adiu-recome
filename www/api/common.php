@@ -10,7 +10,7 @@ function sendJson($data, $code = 200)
     exit;
 }
 
-// Read the JSON body of a request as an associative array
+// Read the JSON body of a request as an asociative array
 function readBody()
 {
     $raw = file_get_contents('php://input');

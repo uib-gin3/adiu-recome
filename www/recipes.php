@@ -5,7 +5,7 @@ require_once __DIR__ . '/app/Recipe.php';
 require_once __DIR__ . '/app/Ingredient.php';
 require_once __DIR__ . '/app/Unit.php';
 
-// Collect the ingredient lines of the form, empty rows are dropped
+// Collect the ingredient lines of the form, empty rows are droped
 function linesFromRequest()
 {
     $ingredientIds = isset($_POST['ingredient_id']) ? (array)$_POST['ingredient_id'] : [];

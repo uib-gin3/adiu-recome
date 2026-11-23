@@ -33,7 +33,7 @@ class Ingredient
             $byId[$ingredient['id']] = $index;
         }
 
-        // Pantry stock in base units, brought back to the purchase unit
+        // Pantry stock in base units, brougth back to the purchase unit
         $sql = 'SELECT p.ingredient_id, u.type AS unit_type, SUM(p.quantity * u.factor) AS base_total
                 FROM pantry p
                 JOIN units u ON u.id = p.unit_id

@@ -6,7 +6,7 @@ Weekly meal planning and grocery list management for practice 1 of subject 21724
 
 Recome keeps your recipes, the food you have at home and the menu of the week. From the menu it builds a shopping list, and a dashboard compares the week against a balanced diet criteria. The interface is written in Catalan, Spanish and English, and it is strictly black and white.
 
-The application follows the MVC paradigm with a small code base and server rendered templates, in a restful spirit. The classes in `app` are the models. Each page inside `www` is the controller of one resource and its own template below, sharing the layout of `views`. A GET request reads the list or the form, a POST request writes and redirects back. The menu grid and the dashboard ask for their data with the Fetch API and keep the JavaScript to the minimum that the practice requires.
+The application follows the MVC paradigm with a small code base and server rendered templates, in a restful spirit. The classes in `app` are the models. Each page inside `www` is the controller of one resource and its own template below, sharing the layout that lives in `app` next to the models. A GET request reads the list or the form, a POST request writes and redirects back. The menu grid and the dashboard ask for their data with the Fetch API and keep the JavaScript to the minimum that the practice requires.
 
 ## Technologies
 
@@ -25,7 +25,7 @@ www/                                web root, mounted into the web container
   ingredients.php, recipes.php      GET shows the list or the form, POST writes
   pantry.php, shopping-list.php     and redirects, one file per resource
   dashboard.php                     three Highcharts visualizations and the filter
-  views/header.php, views/footer.php  shared layout with the details navigation
+  app/header.php, app/footer.php      shared layout with the details navigation
   lang/ca.php, lang/es.php, lang/en.php  interface texts, one file per language
   app/session.php                   session, language, flash message, escaping
   app/*.php                         models, one class per entity, PDO prepared statements

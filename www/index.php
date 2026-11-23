@@ -7,7 +7,7 @@ require_once __DIR__ . '/app/Recipe.php';
 $summary = Dashboard::summary();
 $recipes = Recipe::all();
 
-// The texts of the grid for the JavaScript
+// The texts of the grid for the Javscript
 $texts = [
     'addMeal' => t('menu.add.meal'),
     'peopleWord' => t('menu.people.word'),
