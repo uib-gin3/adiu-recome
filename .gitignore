@@ -1,0 +1,3 @@
+# The MySQL data of the bind volume stays out of git
+data/*
+!data/.gitignore
