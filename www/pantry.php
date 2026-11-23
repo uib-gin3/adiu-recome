@@ -41,7 +41,7 @@ $view = isset($_GET['add']) ? 'form' : 'list';
 
 $pageTitle = t('pantry.title');
 $currentPage = 'pantry';
-require __DIR__ . '/views/header.php';
+require __DIR__ . '/app/header.php';
 ?>
 <?php if ($view === 'form') { ?>
     <h1><?php echo t('nav.pantry.add'); ?></h1>
@@ -123,4 +123,4 @@ require __DIR__ . '/views/header.php';
     </table>
 <?php } ?>
 <?php
-require __DIR__ . '/views/footer.php';
+require __DIR__ . '/app/footer.php';

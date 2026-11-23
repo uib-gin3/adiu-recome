@@ -74,7 +74,7 @@ if (isset($_GET['edit'])) {
 
 $pageTitle = t('recipes.title');
 $currentPage = 'recipes';
-require __DIR__ . '/views/header.php';
+require __DIR__ . '/app/header.php';
 ?>
 <?php if ($view === 'form') { ?>
     <h1><?php echo $editing ? t('recipes.edit.heading') : t('nav.recipes.add'); ?></h1>
@@ -169,4 +169,4 @@ require __DIR__ . '/views/header.php';
     </table>
 <?php } ?>
 <?php
-require __DIR__ . '/views/footer.php';
+require __DIR__ . '/app/footer.php';

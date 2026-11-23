@@ -24,7 +24,7 @@ for ($slot = 1; $slot <= 5; $slot++) {
 $pageTitle = t('menu.title');
 $currentPage = 'menu';
 $scripts = ['js/common.js', 'js/menu.js'];
-require __DIR__ . '/views/header.php';
+require __DIR__ . '/app/header.php';
 ?>
     <h1><?php echo t('home.heading'); ?></h1>
     <p class="intro"><?php echo t('menu.intro'); ?></p>
@@ -83,4 +83,4 @@ require __DIR__ . '/views/header.php';
       </ul>
     </section>
 <?php
-require __DIR__ . '/views/footer.php';
+require __DIR__ . '/app/footer.php';

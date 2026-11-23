@@ -8,7 +8,7 @@ $families = Dashboard::families();
 $pageTitle = t('dashboard.title');
 $currentPage = 'dashboard';
 $scripts = ['https://code.highcharts.com/highcharts.js', 'js/common.js', 'js/dashboard.js'];
-require __DIR__ . '/views/header.php';
+require __DIR__ . '/app/header.php';
 ?>
     <h1><?php echo t('dashboard.heading'); ?></h1>
     <p class="intro"><?php echo t('dashboard.intro'); ?></p>
@@ -54,4 +54,4 @@ require __DIR__ . '/views/header.php';
            data-empty="<?php echo t('dashboard.empty'); ?>"></div>
     </section>
 <?php
-require __DIR__ . '/views/footer.php';
+require __DIR__ . '/app/footer.php';
